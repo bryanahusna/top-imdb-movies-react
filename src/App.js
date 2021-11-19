@@ -134,7 +134,7 @@ class App extends React.Component{
       <div>
         {this.state.filmList.map((film) => (<Film idx={film.id} name={film.name} url={film.url} handleClick={this.handleClickAdd} fav={false} />)) }
       </div>
-      <h2>Favourites</h2>
+      <h2>Wish List</h2>
       <div>
         {this.state.favList.map((film) => (<Film idx={film.id} name={film.name} url={film.url} handleClick={this.handleClickRemove} fav={true} />)) }
       </div>
