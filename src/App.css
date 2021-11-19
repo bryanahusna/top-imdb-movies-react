@@ -24,6 +24,17 @@
   color: white;
 }
 
+.App-footer{
+  position: relative;
+  text-align: left;
+  float: left;
+  width: 96%;
+  margin: 0;
+  padding: 15px;
+  background-color: #101010;
+  color: #aaaaaa;
+}
+
 .App-link {
   color: #61dafb;
 }
